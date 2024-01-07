@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <title>Contact Us - Mushroom Party</title>
+    <link rel="icon" type="image/png" href="../foto/pinkie.png">
+</head>
+<body id="contact">
+    <div class="header">
+        <a class="logo"><img src="../foto/pinkie.png" alt="CompanyLogo">Mushrooms</a>
+        <div class="mz header-right">
+            <a class="mz active" href="../mushrooms.html">Home</a>
+            <a href="../html/about.html">About Us</a>
+        </div>
+    </div>
+
+    <header class="jumbotron jumbotron-fluid text-center">
+        <div class="mz container">
+            <h1 class="mz display-4">Contact Us!</h1>
+        </div>
+    </header>
+
+    <div class="container mt-5">
+
+  <section>
+    <p class="mz-lead">Feel free to contact us by sending an email to: <a href="mailto:medina.zabergja@umib.net">medina.zabergja@umib.net</a></p>
+  </section>
+
+  <section>
+    <form id="contactForm">
+      <div class="form-group">
+        <label for="name">Your Name:</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Your Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea class="form-control" id="message" rows="5" placeholder="Type your message here" required></textarea>
+      </div>
+      <button type="button" class="btn btn-primary" onclick="submitForm()">Send Email</button>
+    </form>
+  </section>
+</div>
+
+<script src="contact.js"></script>
+
+    <footer>
+        <p class="custom-paragraph">&copy; 2024 Mushroom Party. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
