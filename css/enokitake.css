@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header{
+    overflow: hidden;
+    background-color: #9F5F0E;
+    padding: 10px 10px;
+}
+
+.header a{
+    float: left;
+    color: #f9ebc7;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 4px;
+}
+
+.header a.logo img{ /*draw the logo by yourself*/
+    width: 30px;
+    height: auto;
+}
+
+.header a.active{
+    background-color: #783d19;
+    color: #fefae0;
+}
+
+.header-right{
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right{
+        float: none;
+    }
+}
+
+.jumbotron {
+    background-image: url('../foto/FELnLAhXoAwbI1K.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+hr{
+    color: #9F5F0E;
+    background-color: #9F5F0E;
+    width: 100%;
+}
+
+.btn-primary,
+.btn-success{
+    background-color: #783d19;
+    border-color: #783d19;
+}
+
+
+footer {
+    background-color: #b99470;
+    padding: 10px;
+    text-align: center;
+    margin-top: 60px;
+}
+.custom-paragraph {
+    color: #f9ebc7;
+}
